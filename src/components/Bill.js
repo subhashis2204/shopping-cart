@@ -7,7 +7,7 @@ function Bill({ items }) {
   })
 
   const renderedItems = requiredItems.map((item) => {
-    return <BillItems item={item} />
+    return <BillItems item={item} key={item.id} />
   })
 
   return (

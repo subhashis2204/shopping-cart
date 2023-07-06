@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import ItemList from "./components/ItemList"
 import Cart from "./components/Cart"
 import Bill from "./components/Bill"
@@ -12,6 +12,18 @@ function App() {
     { id: 5, name: "watermelon", price: 83, qty: 0 },
     { id: 6, name: "apple", price: 123, qty: 0 },
   ])
+
+  useEffect(() => {
+    const response = localStorage.getItem("data")
+
+    const data = JSON.parse(response)
+    setItems(data)
+  }, [])
+
+  useEffect(() => {
+    const data = JSON.stringify(items)
+    localStorage.setItem("data", data)
+  })
 
   const handleAddItem = (id) => {
     const updatedItems = items.map((item) => {
