@@ -18,10 +18,10 @@
 
 Here're some of the project's best features:
 
-*   React Js
+*   React Js & Tailwind CSS
 *   Dynamic Bill Adjustment
 *   React State Management
-*   Tailwind CSS
+*   Local Storage - add items to cart and return later
 
 <h2>🛠️ Installation Steps:</h2>
 
