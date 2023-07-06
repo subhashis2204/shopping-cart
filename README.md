@@ -2,17 +2,19 @@
 
 <p align="center"><img src="https://socialify.git.ci/subhashis2204/shopping-cart/image?description=1&amp;descriptionEditable=A%20single%20page%20application%20built%20using%20React%20JS&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;theme=Light" alt="project-image"></p>
 
+
+  <p align="center"><b>A shopping cart UI built using React.js and Tailwind CSS</b></p>
+
   <p align="center">
-    A shopping cart UI built using React.js and Tailwind CSS
     <br/>
     <br/>
-    <a href="https://github.com/subhashis2204/shopping-cart">View Demo</a>
+    <a href="https://main--frolicking-sable-08eb19.netlify.app/">View Demo</a>
     .
     <a href="https://github.com/subhashis2204/shopping-cart/issues">Report Bug</a>
     .
     <a href="https://github.com/subhashis2204/shopping-cart/issues">Request Feature</a>
   </p>
-</p>
+
 
 ![Downloads](https://img.shields.io/github/downloads/subhashis2204/shopping-cart/total) ![Contributors](https://img.shields.io/github/contributors/subhashis2204/shopping-cart?color=dark-green) ![Forks](https://img.shields.io/github/forks/subhashis2204/shopping-cart?style=social) ![Stargazers](https://img.shields.io/github/stars/subhashis2204/shopping-cart?style=social) ![Issues](https://img.shields.io/github/issues/subhashis2204/shopping-cart) ![License](https://img.shields.io/github/license/subhashis2204/shopping-cart) 
 
